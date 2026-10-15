@@ -8,7 +8,13 @@ def multiply(a, b):
     return a * b
 
 
+def subtract(a, b):
+    """Return the difference between two numbers."""
+    return a - b
+
+
 if __name__ == "__main__":
     print("Basic CI Demo")
-    print("Addition:", add(10, 20))
-    print("Multiplication:", multiply(10, 20))
+    print("Addition (10 + 20):", add(10, 20))
+    print("Multiplication (10 * 20):", multiply(10, 20))
+    print("Subtraction (10 - 4):", subtract(10, 4))
